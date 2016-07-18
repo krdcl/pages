@@ -1,0 +1,333 @@
+.colorize {
+	/*background-color: yellow;	*/
+	height: 1000px;
+}
+
+
+.header {
+	/*background-color: green;	*/
+	height: 50px;
+	width: 100%;
+}
+
+.footer {
+	/*background-color: gray;	*/
+	height: 50px;
+	width: 100%;
+}
+
+.left-column {
+	/*background-color: blue;*/
+}
+
+.right-column {
+	/*background-color: blanchedalmond;*/
+}
+
+.image-name-job {
+	    width: 100%;
+    /* height: 400px; */
+    margin-bottom: 50px;
+    background-color: white;
+    position: relative;
+}
+
+.circle-base {
+       border-radius: 50%;
+    behavior: url(PIE.htc);
+    width: 200px;
+    height: 200px;
+    background-color: #006CB4;
+    border: 2px solid #006CB4;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+}
+
+.circle-base-white {
+	width: 100%;
+	 height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+     border: 10px solid white;
+}
+
+.name-here {
+	    font-family: georgia;
+    font-size: 32px;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+        margin-bottom: -15px;
+}
+
+.surname-here {
+	    font-family: Arial Black;
+        font-size: 35px;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.speciality-here {
+	    /* font-family: georgia; */
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /* margin-top: 20px; */
+    margin-bottom: 0px;
+}
+
+.profile {
+	width: 100%;
+}
+
+.profile-title {
+	     color: #006CB4;
+    font-size: 29px;
+    font-weight: bold;
+    overflow: hidden;
+    padding-top: 5px;
+        margin-bottom: 15px;
+}
+
+.profile-text {
+	color: black;
+	font-size: 12px;
+	vertical-align: middle;
+}
+
+.circle-base.icon-circle {
+	    width: 50px;
+    height: 50px;
+    /* display: inline-block; */
+    border-width: 1px;
+    float: left;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+
+.profile .icon {
+	    color: white;
+    font-size: 30px;
+    /* text-align: center; */
+    margin-left: 6px;
+    margin-top: 5px;
+}
+
+.icon-circle-base-white {
+	border-radius: 50%;
+	border: 2px solid white;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+}
+
+.profile-title:after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 100%;
+  height: 4px;
+  background: #006CB4;
+  position: relative;
+  margin-top: -6px;
+
+  /* добавляем к линии левый и правый бордюр цветом основного фона заголовка
+  ** благодаря этому создается нужный отступ между линиями и текстом
+  */
+  margin-right: -100%;
+}
+
+.contact {
+	margin-top: 30px;
+}
+
+.contact-item {
+	    width: 100%;
+    font-size: 16px;
+    margin: 20px 0 20px 0;
+}
+
+.contact-item-title {
+	    color: #006CB4;
+    display: inline-block;
+    width: 35%;
+    font-weight: bold;
+}
+
+.contact-item-text {
+	    color: black;
+    display: inline-block;
+    width: 55%;
+}
+
+.skills-item {
+	width: 100%;
+	    margin-bottom: 10px;
+}
+
+.skills-title {
+	    color: black;
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;old;
+}
+
+.skills-points {
+        text-align: center;
+}
+
+.skills-points-circle {
+	    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #006CB4;
+    display: inline-block;
+    margin-top: 10px;
+        margin-left: 2%;
+
+}
+
+.skills-points-circle.off {
+	background-color: #DADADA;
+}
+
+.education-item {
+    list-style-type: none;/*прятаем родные маркеры*/
+      font-size: 18px;
+    line-height: 18px;
+    position: relative;
+        margin-bottom: 10px;
+}
+
+.education-item:before {/*собственно сам маркер*/
+           color: black;    
+    content:"\2022";    
+    font-size: 50px;
+    font-weight: 700;
+    left: -30px;
+    line-height: 18px;        
+    position: absolute;
+    top: 0;
+}
+
+
+
+
+.education-item-degree {
+	    font-size: 17px;
+    font-weight: bold;
+    color: #006CB4;
+    display: inline-block;
+    width: 50%;
+}
+
+.education-item-date {
+	display: inline-block;
+    font-size: 18px;
+}
+
+
+.education-item-university-name {
+	 font-size: 18px;
+    font-family: tahoma;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.education-item-text {
+	font-size: 12px;
+}
+
+   
+    
+.software-items {
+    padding-left: 10px;
+}
+
+.software-item {
+	    width: 47%;
+    display: inline-block;
+    margin-bottom: 14px;
+}
+
+
+.software-item:nth-child(2n) {
+	margin-left: 3%;
+}
+
+.software-item-title {
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.software-item-skill-per {
+	overflow: hidden;
+}
+
+
+.software-item-skill-per:before {
+	content: '';
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 60%;
+  height: 15px;
+  background: #006CB4;
+  float: left;
+  margin-top: 0px;
+}
+
+
+.software-item-skill-per:after {
+	content: '';
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 40%;
+  height: 15px;
+  background: #DADADA;
+ float: right;
+  margin-top: 0px;
+}
+
+
+body {
+	min-width: 315px;
+	position: relative
+}
+
+ @media screen and (max-width: 450px) {
+		.software-item {
+		    display: inline;
+	}
+}
+
+
+.footer {
+    /* background-color: gray; */
+    height: 50px;
+    width: 100%;
+    color: #006CB4;
+    font-size: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
